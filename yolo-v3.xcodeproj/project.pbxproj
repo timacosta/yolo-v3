@@ -384,7 +384,9 @@
 		907B6DD8262C9DCD00E2C697 = {
 			isa = PBXGroup;
 			children = (
-				907B6DE3262C9DCD00E2C697 /* SourceCode */,
+				907B6DFC262CA08B00E2C697 /* Delegates */,
+				907B6E07262CA20F00E2C697 /* AppScenes */,
+				907B6E11262CAC5000E2C697 /* Models */,
 				907B6DFB262CA03D00E2C697 /* Resources */,
 				907B6DE2262C9DCD00E2C697 /* Products */,
 			);
@@ -396,16 +398,6 @@
 				907B6DE1262C9DCD00E2C697 /* yolo-v3.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		907B6DE3262C9DCD00E2C697 /* SourceCode */ = {
-			isa = PBXGroup;
-			children = (
-				907B6DFC262CA08B00E2C697 /* Delegates */,
-				907B6E07262CA20F00E2C697 /* AppScenes */,
-				907B6E11262CAC5000E2C697 /* Models */,
-			);
-			path = SourceCode;
 			sourceTree = "<group>";
 		};
 		907B6DFB262CA03D00E2C697 /* Resources */ = {
