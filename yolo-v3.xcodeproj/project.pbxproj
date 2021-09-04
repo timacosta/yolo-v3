@@ -384,7 +384,7 @@
 		907B6DD8262C9DCD00E2C697 = {
 			isa = PBXGroup;
 			children = (
-				907B6DFC262CA08B00E2C697 /* Delegates */,
+				907B6DFC262CA08B00E2C697 /* AppDelegates */,
 				907B6E07262CA20F00E2C697 /* AppScenes */,
 				907B6E11262CAC5000E2C697 /* Models */,
 				907B6DFB262CA03D00E2C697 /* Resources */,
@@ -412,13 +412,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		907B6DFC262CA08B00E2C697 /* Delegates */ = {
+		907B6DFC262CA08B00E2C697 /* AppDelegates */ = {
 			isa = PBXGroup;
 			children = (
 				907B6DE4262C9DCD00E2C697 /* AppDelegate.swift */,
 				907B6DE6262C9DCD00E2C697 /* SceneDelegate.swift */,
 			);
-			path = Delegates;
+			path = AppDelegates;
 			sourceTree = "<group>";
 		};
 		907B6E07262CA20F00E2C697 /* AppScenes */ = {
