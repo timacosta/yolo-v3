@@ -263,7 +263,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		026CEA9126DC301D005FF55E /* TestImages */ = {
+		026CEA9126DC301D005FF55E /* Images */ = {
 			isa = PBXGroup;
 			children = (
 				026CEB2426DC301F005FF55E /* 3_.jpg */,
@@ -368,7 +368,7 @@
 				026CEB4126DC3020005FF55E /* 47_.jpg */,
 				026CEB3A26DC3020005FF55E /* 10_.jpg */,
 			);
-			path = TestImages;
+			path = Images;
 			sourceTree = "<group>";
 		};
 		9005D19D262D81A4006A415D /* Cell */ = {
@@ -413,8 +413,8 @@
 			children = (
 				907B6E33262CBAD100E2C697 /* AppConfiguration */,
 				907B6E34262CBAE500E2C697 /* Assets */,
-				907B6E32262CBAC300E2C697 /* Storyboards */,
-				026CEA9126DC301D005FF55E /* TestImages */,
+				907B6E32262CBAC300E2C697 /* LaunchScreen */,
+				026CEA9126DC301D005FF55E /* Images */,
 				90859112262D98F500396B07 /* YOLO.mlmodel */,
 			);
 			path = Resources;
@@ -469,12 +469,12 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		907B6E32262CBAC300E2C697 /* Storyboards */ = {
+		907B6E32262CBAC300E2C697 /* LaunchScreen */ = {
 			isa = PBXGroup;
 			children = (
 				907B6DEF262C9DCD00E2C697 /* LaunchScreen.storyboard */,
 			);
-			path = Storyboards;
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 		907B6E33262CBAD100E2C697 /* AppConfiguration */ = {

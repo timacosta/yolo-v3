@@ -44,7 +44,7 @@ class CatalogueAndSearchViewController: UIViewController {
         let searchController = UISearchController(searchResultsController: nil)
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
-        searchController.searchBar.placeholder = "Search objects..."
+        searchController.searchBar.placeholder = "Search"
         navigationItem.searchController = searchController
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Search", style: .plain, target: self, action: #selector(searchInCatalogue))
     }
@@ -54,14 +54,6 @@ class CatalogueAndSearchViewController: UIViewController {
         navigationItem.searchController?.searchBar.becomeFirstResponder()
     }
     
-    /*@objc private func scrollUp() {
-        if collectionView?.contentOffset.y ?? 0 >= 50 {
-            collectionView?.scrollToItem(at: IndexPath(item: 0, section: 0), at: .bottom, animated: true)
-            DispatchQueue.main.async { [weak self] in
-                self?.collectionView?.contentOffset = CGPoint(x: 0, y: -50)
-            }
-        }
-    }*/
 }
 
 extension CatalogueAndSearchViewController: UICollectionViewDataSource {
